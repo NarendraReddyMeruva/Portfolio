@@ -3,7 +3,7 @@ import './Certificates.css';
 
 const Certificates = () => {
   const [selectedCert, setSelectedCert] = useState(null);
-
+  // This state manages which certificate is currently selected for modal view
   const certificates = [
     {
       id: 1,
@@ -50,11 +50,11 @@ const Certificates = () => {
   ];
 
   const openModal = (cert) => {
-    setSelectedCert(cert);
+    setSelectedCert(cert);// Set the selected certificate for the modal
   };
 
   const closeModal = () => {
-    setSelectedCert(null);
+    setSelectedCert(null); // Close modal by resetting selected certificate
   };
 
   return (

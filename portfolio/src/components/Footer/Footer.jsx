@@ -23,13 +23,13 @@ const Footer = () => {
           <div className="footer-link-group">
             <h4>Connect</h4>
             <div className="social-icons">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/NarendraReddyMeruva" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/narendra-reddy-meruva-99301829a/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="mailto:example@email.com">
+              <a href="mailto:narendrareddy0312@email.com">
                 <i className="fas fa-envelope"></i>
               </a>
             </div>

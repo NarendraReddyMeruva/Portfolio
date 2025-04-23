@@ -1,5 +1,5 @@
 .about-section {
-    padding: 6rem 0;
+    padding: 5rem 0;
     background-color: #0d0d0d;
     position: relative;
   }
@@ -64,6 +64,14 @@
     flex: 1;
     display: flex;
     justify-content: center;
+  }
+  .about-profile-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
   }
   
   .image-wrapper {
