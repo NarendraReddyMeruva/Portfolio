@@ -1,0 +1,79 @@
+/* Apply full-screen background layout */
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #fbe1f1, #ffffff);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Wrapper for login section */
+.login-page-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+/* Main login form card */
+.login {
+    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    border: 2px solid #ffb6c1;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Logo/image alignment */
+.login .image {
+    margin-bottom: 20px;
+}
+
+/* Input field styles */
+.login input {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 2px solid #ffb6c1;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Placeholder styling */
+.login input::placeholder {
+    color: #555;
+}
+
+/* Button wrapper */
+.login .btn {
+    margin-top: 20px;
+}
+
+/* Sign-in button styles */
+.login .btn button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #ffb6c1;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+.login .btn button:hover {
+    background-color: #ffb6c1;
+    color: #fff;
+}
